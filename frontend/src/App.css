@@ -1,0 +1,43 @@
+.dashboard-layout {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.dashboard-content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.dashboard-metrics {
+    display: flex;
+    gap: 20px;
+}
+
+.metric-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
