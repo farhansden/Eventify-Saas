@@ -1,11 +1,11 @@
 // src/App.js
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './components/LandingPage'; // Create this component
-import SignupPage from './components/SignupPage'; // Create this component
-import LoginPage from './components/LoginPage'; // Create this component
-import Dashboard from './components/Dashboard'; // Create this component
-import CreateEvent from './components/CreateEvent'; // Create this component
+import LandingPage from './components/LandingPage.js'; // Create this component
+import SignupPage from './components/SignupPage.js'; // Create this component
+import LoginPage from './components/LoginPage.js'; // Create this component
+import Dashboard from './components/Dashboard.js'; // Create this component
+import CreateEvent from './components/CreateEvent.js'; // Create this component
 
 const App = () => {
     const [data, setData] = useState([]);
